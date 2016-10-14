@@ -12,8 +12,8 @@ The example uses the the bucket name provided, and lists all object keys in a bu
 
 ```sh
 $ go run listObjects.go <region> <bucket>
-$ go run putObject.go <region> <bucket> <filename> <file / template>
-$ go run putObject.go ap-southeast-2 rr-go jac.txt ../../templates/jac.json
+$ go run putObject.go <region> <bucket> <filename> <extension> <file / template> <total>
+$ go run putObject.go ap-southeast-2 rr-go jac txt ../../templates/jac.json 2
 ```
 
 Output:
